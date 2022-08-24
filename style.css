@@ -16,9 +16,7 @@ header{
     display: flex;
     width: 80%;
 	align-items: center;
-	margin: 5px;
     margin-left: 10%;
-    margin-right: 10%;
 }
 a{
     text-decoration-line: none;
@@ -77,7 +75,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	font-family: 'Montserrat', sans-serif;
-	height: 70vh;
+	height: 500px;
 	margin: -20px 0 50px;
 
 }
@@ -171,4 +169,213 @@ footer{
 .sp{
     margin: 0px;
     font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1024px){
+li{
+    padding-top: 4px;
+    padding-left: 5%;
+    display: inline-block;
+}
+.box1{
+    margin: 7.5px;
+}
+.box2{
+    padding: 5px;
+    margin: 7.5px;
+}
+.box3{
+    margin: 7.5px;
+}
+.waitlist{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.body-box1 p{
+    font-size: 1.2rem;
+}
+.image img{
+    width: 250px;
+}
+}
+@media screen and (max-width: 768px){
+    *{
+        overflow: scroll;
+    }
+    .box2{
+        align-items: center;
+        padding: 10px;
+        margin: 25px;
+        width: 70vw;
+    }
+    .box3{
+        display: none;
+    }
+    
+    .body-container{
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        height: auto;
+        margin: -20px 0 50px;
+    }
+    .body-box1{
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+        width: auto;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .body-box2{
+        width: auto;
+        margin: 35px;
+    }
+    .image{
+        margin-top: -45%;
+        margin-bottom: 20%;
+        padding: 40%;
+    }
+    .image img{
+        /* margin-left: -10%; */
+        width: 300px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+    }
+    .body-box1 p{
+        font-size: 1.2rem;
+    }
+    form{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    input{
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        align-content: flex-start;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    span{
+        font-size: 1rem;
+    }
+    footer{
+     margin-top: 10%;
+    }
+    .links{
+        padding-top: 10px;
+    }
+    .help{
+        margin-left: 25%;
+    } 
+    .pp{
+        font-size: 1rem;
+    }
+    .sp{
+        font-size: 1rem;
+    }      
+}
+
+@media screen and (max-width: 375px){
+    *{
+        overflow: scroll;
+    }
+    .box2{
+        align-items: center;
+        padding: 10px;
+        margin: 25px;
+        width: 70vw;
+    }
+    .box3{
+        display: none;
+    }
+    
+    .body-container{
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        height: auto;
+        margin: 0px 0 0px;
+    }
+    .body-box1{
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+        width: auto;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .body-box2{
+        width: auto;
+        margin: 5px;
+    }
+    .image{
+        margin-top: -45%;
+        margin-bottom: 20%;
+        padding: 40%;
+    }
+    .image img{
+        /* margin-left: -10%; */
+        width: 150px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+    }
+    .body-box1 p{
+        font-size: 1.2rem;
+    }
+    form{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    input{
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        align-content: flex-start;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    span{
+        font-size: 1rem;
+    }
+    footer{
+     margin-top: 10%;
+    }
+    .links{
+        padding-top: 10px;
+    }
+    .help{
+        margin-left: 25%;
+    } 
+    .pp{
+        font-size: 1rem;
+    }
+    .sp{
+        font-size: 1rem;
+    }    
 }
