@@ -292,6 +292,7 @@ li{
 @media screen and (max-width: 425px){
     *{
         overflow: scroll;
+        margin-left: 2.25%;
     }
     header{
         display: block;
@@ -299,10 +300,10 @@ li{
         background-color: #faf3eb;
     }
     .container{
-        display: block;
+        display: flex;
         width: 80%;
         align-items: center;
-        margin-left: 7%;
+        margin-left: 0%;
     }
     a{
         font-size: 1.1rem;
@@ -310,24 +311,24 @@ li{
         color: #adaba2;
     }
     li{
-        padding-top: 5px;
+        padding-top: 0px;
         padding-left: 0px;
-        display: inline-block;
+        display: flex;
     }
     .box1{
         display: flex;
-        margin-top: 35px;
-        margin-left: 100px;
-        width: 360px;
+        margin-top: 15px;
+        margin-left: 0px;
+        width: 25%;
         align-items: center;
     }
     .box2{
-        display: inline-block;
+        display: inline-flex;
         align-items: center;
         padding: 0px;
         margin: 0%;
         margin-left: 10%;
-        width: 360px;
+        width: 55%;
     }
     .box3{
         display: none;
