@@ -197,7 +197,7 @@ li{
 .image img{
     width: 250px;
 }
-}
+
 @media screen and (max-width: 768px){
     *{
         overflow: scroll;
@@ -289,20 +289,69 @@ li{
     }      
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
     *{
         overflow: scroll;
     }
-    .box2{
+    header{
+        display: block;
+        width: 360px;
+        background-color: #faf3eb;
+    }
+    .container{
+        display: block;
+        width: 80%;
         align-items: center;
-        padding: 10px;
-        margin: 25px;
-        width: 70vw;
+        margin-left: 7%;
+    }
+    a{
+        font-size: 1.1rem;
+        text-decoration-line: none;
+        color: #adaba2;
+    }
+    li{
+        padding-top: 5px;
+        padding-left: 0px;
+        display: inline-block;
+    }
+    .box1{
+        display: flex;
+        margin-top: 35px;
+        margin-left: 100px;
+        width: 360px;
+        align-items: center;
+    }
+    .box2{
+        display: inline-block;
+        align-items: center;
+        padding: 0px;
+        margin: 0%;
+        margin-left: 10%;
+        width: 360px;
     }
     .box3{
         display: none;
     }
-    
+    .hiring{
+        display: none;
+    }
+    .p{
+        margin: inherit;
+    }
+    .waitlist{
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        border-radius: 5px;
+        color: white;
+        border-style: hidden;
+        cursor: pointer;
+        background-color: blue;
+    }
+    body{
+        background-color: #faf3eb;
+    }
     .body-container{
         display: -webkit-box;
         display: -moz-box;
@@ -310,37 +359,36 @@ li{
         -webkit-box-orient: vertical;
         -moz-box-orient: vertical;
         box-orient: vertical;
-        width: 700px;
+        width: 360px;
         justify-content: center;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
         height: auto;
-        margin: 0px 0 0px;
     }
     .body-box1{
         -webkit-box-ordinal-group: 2;
         -moz-box-ordinal-group: 2;
         box-ordinal-group: 2;
-        width: auto;
-        margin-left: 10%;
-        margin-top: 10%;
+        width: 360px;
+        margin-left: 3%;
+        margin-top: 20%;
     }
     .body-box2{
-        width: auto;
-        margin: 5px;
+        width: 360px;
+        margin-left: -7%;
     }
     .image{
-        margin-top: -45%;
+        margin-top: -35%;
         margin-bottom: 20%;
         padding: 40%;
     }
     .image img{
         /* margin-left: -10%; */
-        width: 150px;
+        width: 200px;
     }
     h1{
         font-family: 'Playfair Display', serif;
-        font-size: 50px;
+        font-size: 40px;
     }
     .body-box1 p{
         font-size: 1.2rem;
@@ -351,31 +399,188 @@ li{
     }
     input{
         border: none;
+        margin-left: 5%;
+        margin-top: 5%;
         border-radius: 5px;
         padding: 15px;
         align-content: flex-start;
         text-align: left;
         padding-left: 15px;
-        padding-right: 150px;
+        padding-right: 127px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
+    .check{
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
     span{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     footer{
-     margin-top: 10%;
+        display: block;
+        width: 360px;
+        height: auto;
     }
     .links{
-        padding-top: 10px;
+        padding-top: 0px;
     }
     .help{
-        margin-left: 25%;
+        margin-top: 5%;
+        margin-left: 20%;
     } 
     .pp{
         font-size: 1rem;
     }
     .sp{
         font-size: 1rem;
-    }    
+    }
+}
+
+@media screen and (max-width: 375px){
+    *{
+        overflow: scroll;
+    }
+    header{
+        display: block;
+        width: 360px;
+        background-color: #faf3eb;
+    }
+    .container{
+        display: block;
+        width: 80%;
+        align-items: center;
+        margin-left: 7%;
+    }
+    a{
+        font-size: 1.1rem;
+        text-decoration-line: none;
+        color: #adaba2;
+    }
+    li{
+        padding-top: 5px;
+        padding-left: 0px;
+        display: inline-block;
+    }
+    .box1{
+        display: flex;
+        margin-top: 35px;
+        margin-left: 100px;
+        width: 360px;
+        align-items: center;
+    }
+    .box2{
+        display: inline-block;
+        align-items: center;
+        padding: 0px;
+        margin: 0%;
+        margin-left: 8%;
+        width: 360px;
+    }
+    .box3{
+        display: none;
+    }
+    .hiring{
+        display: none;
+    }
+    .p{
+        margin: inherit;
+    }
+    .waitlist{
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        border-radius: 5px;
+        color: white;
+        border-style: hidden;
+        cursor: pointer;
+        background-color: blue;
+    }
+    body{
+        background-color: #faf3eb;
+    }
+    .body-container{
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        width: 360px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        height: auto;
+    }
+    .body-box1{
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+        width: 360px;
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+    .body-box2{
+        width: 360px;
+        margin-left: -7%;
+    }
+    .image{
+        margin-top: -35%;
+        margin-bottom: 20%;
+        padding: 40%;
+    }
+    .image img{
+        /* margin-left: -10%; */
+        width: 200px;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+    }
+    .body-box1 p{
+        font-size: 1.2rem;
+    }
+    form{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    input{
+        border: none;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 5px;
+        padding: 15px;
+        align-content: flex-start;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 127px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .check{
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+    span{
+        font-size: 0.8rem;
+    }
+    footer{
+        display: block;
+        width: 360px;
+        height: auto;
+    }
+    .links{
+        padding-top: 0px;
+    }
+    .help{
+        margin-top: 5%;
+        margin-left: 20%;
+    } 
+    .pp{
+        font-size: 1rem;
+    }
+    .sp{
+        font-size: 1rem;
+    }
 }
